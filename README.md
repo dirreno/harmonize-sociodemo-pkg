@@ -5,33 +5,28 @@
 <!-- `packagename` is extracted from the DESCRIPTION file -->
 <!-- `gh_repo` is extracted via a special environment variable in GitHub Actions -->
 
-# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
+# Harmonize Sociodemographic Package <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
 
-[![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
-[![R-CMD-check](https://github.com/%7B%7B%20gh_repo%20%7D%7D/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/%7B%7B%20gh_repo%20%7D%7D/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D/branch/main/graph/badge.svg)](https://app.codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D?branch=main)
-[![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.es.md)
 <!-- badges: end -->
 
-{{ packagename }} provides functions to ….
+Harmonize Sociodemographic Package is aimed at harmonizing sociodemographic databases from Colombia, Peru, and Brazil. The primary objective is to structure and centralize diverse data sources into a unified and organized database. This effort simplifies the process of accessing, consolidating, and analyzing sociodemographic information, providing a valuable resource for researchers, analysts, and everyone interested in gaining insights into the sociodemographic landscape of Latin American countries.
 
 <!-- This sentence is optional and can be removed -->
 
-{{ packagename }} is developed at the [CENTER\|similar](url) at the
-[UNIVERSITY\|similar](url) as part of the [Epiverse-TRACE
-program](https://data.org/initiatives/epiverse/).
+Harmonize Sociodemographic Package is developed by the research group [BIOMAC](https://ingbiomedica.uniandes.edu.co/es/investigacion/lineas-investigacion/biologia-matematica-computacional#) at the
+[Universidad de los Andes](https://uniandes.edu.co/) as part of the [HARMONIZE](https://www.iai.int/es/news/detail/HARMONIZE-a-new-IAI-partnership) project.
 
 ## Installation
 
-You can install the development version of {{ packagename }} from
+You can install the development version of Harmonize Sociodemographic Package from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
+# install.packages("harsode")
 pak::pak("{{ gh_repo }}")
 ```
 
