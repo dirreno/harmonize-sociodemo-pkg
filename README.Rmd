@@ -18,27 +18,28 @@ knitr::opts_chunk$set(
 )
 ```
 
-# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
+# Harmonize Sociodemographic Package <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
-[![R-CMD-check](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/{{ gh_repo }}/branch/main/graph/badge.svg)](https://app.codecov.io/gh/{{ gh_repo }}?branch=main)
-[![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept) 
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.es.md)
 <!-- badges: end -->
 
-{{ packagename }} provides functions to ....
+Harmonize Sociodemographic Package is aimed at harmonizing sociodemographic databases from Colombia, Peru, and Brazil. The primary objective is to structure and centralize diverse data sources into a unified and organized database. This effort simplifies the process of accessing, consolidating, and analyzing sociodemographic information, providing a valuable resource for researchers, analysts, and everyone interested in gaining insights into the sociodemographic landscape of Latin American countries.
 
 <!-- This sentence is optional and can be removed -->
-{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE program](https://data.org/initiatives/epiverse/).
+
+Harmonize Sociodemographic Package is developed by the research group [BIOMAC](https://ingbiomedica.uniandes.edu.co/es/investigacion/lineas-investigacion/biologia-matematica-computacional#) at the
+[Universidad de los Andes](https://uniandes.edu.co/) as part of the [HARMONIZE](https://www.iai.int/es/news/detail/HARMONIZE-a-new-IAI-partnership) project.
 
 ## Installation
 
-You can install the development version of {{ packagename }} from
+You can install the development version of Harmonize Sociodemographic Package from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
+# install.packages("harsode")
 pak::pak("{{ gh_repo }}")
 ```
 
@@ -46,23 +47,23 @@ pak::pak("{{ gh_repo }}")
 
 These examples illustrate some of the current functionalities
 
-
 ## Development
 
 ### Lifecycle
 
 This package is currently a *concept*, as defined by the [RECON software
-lifecycle](https://www.reconverse.org/lifecycle.html). This means that essential
-features and mechanisms are still being developed, and the package is not ready
-for use outside of the development team.
-
+lifecycle](https://www.reconverse.org/lifecycle.html). This means that
+essential features and mechanisms are still being developed, and the
+package is not ready for use outside of the development team.
 
 ### Contributions
 
-Contributions are welcome via [pull requests](https://github.com/{{ gh_repo }}/pulls).
+Contributions are welcome via [pull
+requests](https://github.com/%7B%7B%20gh_repo%20%7D%7D/pulls).
 
 ### Code of Conduct
 
-Please note that the {{ packagename }} project is released with a 
-[Contributor Code of Conduct](https://github.com/epiverse-trace/.github/blob/main/CODE_OF_CONDUCT.md).
+Please note that the {{ packagename }} project is released with a
+[Contributor Code of
+Conduct](https://github.com/epiverse-trace/.github/blob/main/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
