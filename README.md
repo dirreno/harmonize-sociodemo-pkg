@@ -9,8 +9,7 @@
 
 <!-- badges: start -->
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/dirreno/harmonize-sociodemo-pkg/blob/main/README.es.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
 <!-- badges: end -->
 
 Harmonize Sociodemographic Package is aimed at harmonizing sociodemographic databases from Colombia, Peru, and Brazil. The primary objective is to structure and centralize diverse data sources into a unified and organized database. This effort simplifies the process of accessing, consolidating, and analyzing sociodemographic information, providing a valuable resource for researchers, analysts, and everyone interested in gaining insights into the sociodemographic landscape of Latin American countries.
