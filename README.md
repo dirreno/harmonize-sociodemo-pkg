@@ -25,7 +25,7 @@ You can install the development version of Harmonize Sociodemographic Package fr
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("harsode")
+# install.packages("pak")
 pak::pak("{{ gh_repo }}")
 ```
 
